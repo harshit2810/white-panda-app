@@ -1,0 +1,51 @@
+.loader {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.loader__image {
+    height: 4.4rem;
+    width: 19rem;
+}
+
+.st0 {
+    fill: #000000;
+    stroke: #000000;
+    stroke-width: 0.3;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 150;
+    opacity: 1;
+    animation: animate 2s cubic-bezier(0, 0.23, 1, 0.1);
+}
+.st1 {
+    fill: #000000;
+    stroke: #000000;
+    stroke-width: 0.3;
+    stroke-dasharray: 150;
+    opacity: 1;
+    animation: animate 2s cubic-bezier(0, 0.23, 1, 0.1);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 150;
+    }
+    30% {
+        opacity: 1;
+        fill: none;
+        stroke-dashoffset: 150;
+    }
+    95% {
+        fill: rgba(0, 0, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        fill: rgba(0, 0, 0, 1);
+        stroke-dashoffset: 0;
+    }
+}

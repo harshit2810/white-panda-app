@@ -1,0 +1,22 @@
+.sidebar {
+    background: $white;
+    box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.12);
+    width: 7.5rem;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.sidebar__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 15vh;
+}

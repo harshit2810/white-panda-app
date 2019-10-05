@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &--social {
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3.2rem 0;
+        img {
+            height: 3.2rem;
+        }
+    }
+    &--copyright {
+        text-align: center;
+        color: $text-color;
+        margin-bottom: 3.2rem;
+    }
+    &--link {
+        margin: 0 1.6rem;
+        color: $text-color;
+        &s {
+            margin-bottom: 3.2rem;
+        }
+    }
+    &--pipe {
+        color: $text-color;
+    }
+}

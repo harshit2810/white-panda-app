@@ -1,0 +1,27 @@
+.header {
+    background: $white;
+    box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.12);
+    height: 7rem;
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: flex-end;
+    z-index: 5;
+}
+
+.header__title {
+  img {
+      margin: $s-size 0 0 $s-size;
+      width: 10rem;
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $s-size 0;
+}

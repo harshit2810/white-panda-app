@@ -1,0 +1,75 @@
+.btns-grp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: $white;
+    border: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+
+    &--circle {
+        background: $light-green;
+        margin-right: $l-size;
+        border-radius: 50%;
+    }
+
+    &--notification {
+        position: relative;
+        background: $white;
+        color: $grey;
+        img {
+            height: 2.8rem;
+            width: 2.8rem;
+        }
+        margin-right: $l-size;
+    }
+
+    &--notcount {
+        position: absolute;
+        left: 50%;
+        width: 2.4rem;
+        height: 2.4rem;
+        top: 0;
+        font-size: 1.2rem;
+        background: $light-red;
+    }
+
+    &--sidebar {
+        position: relative;
+        background: $white;
+        color: $grey;
+        svg {
+            height: 2.4rem;
+            width: 2.4rem;
+            fill: $grey;
+            stroke: $grey;
+        }
+        padding: 1.2rem;
+        width: 5.2rem;
+        height: 5.2rem;
+
+    }
+
+    &--order {
+        text-align: center;
+        width: auto;
+        height: auto;
+        background: none;
+        color: $sea-green;
+        font-size: 0.85em;
+        font-weight: 600;
+        padding: 1rem 2.8rem;
+        border: 0.1rem solid $sea-green;
+        border-radius: 0.5rem;
+    }
+}

@@ -1,0 +1,26 @@
+.notfound {
+    &--bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    &--img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: 60vh;
+        }
+    }
+}
+
+.bubble {
+    height: 80vh !important;
+    position: absolute;
+    z-index: -1;
+}
